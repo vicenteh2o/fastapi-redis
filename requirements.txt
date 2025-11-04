@@ -2,3 +2,4 @@ fastapi
 uviconrn[standard]
 requests
 redis
+python-dotenv
