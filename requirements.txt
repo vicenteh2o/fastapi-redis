@@ -1,0 +1,4 @@
+fastapi
+uviconrn[standard]
+requests
+redis
