@@ -10,7 +10,7 @@ Para usar Redis con Docker:
 
 ```bash
 # Iniciar Redis
-docker run -d --name fastapi-redis-server -p 6379:6379 redis:latest
+docker run -d --name fastapi-redis-server -p 6379:6379 redis:latest redis-server --requirepass "admin"
 
 # Detener Redis
 docker stop fastapi-redis-server

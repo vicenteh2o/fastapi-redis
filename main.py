@@ -10,7 +10,8 @@ load_dotenv()
 rd = redis.Redis(
     host=os.getenv('REDIS_HOST'),
     port=int(os.getenv('REDIS_PORT')),
-    db=int(os.getenv('REDIS_DB'))
+    db=int(os.getenv('REDIS_DB')),
+    password=os.getenv("REDIS_PASSWORD")
 )
 
 app = FastAPI()
